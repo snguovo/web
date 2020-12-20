@@ -1,0 +1,50 @@
+{
+    "web_enable": true,
+    "appmanager_enable":true,
+    "applist": [
+        {
+            "version": "1.0.0",
+            "name": "mosquitto",
+            "logpath": "/usr/local/aostar/data/log/mosquitto.log",
+            "confpath": "",
+            "enable": false
+        },
+        {
+            "version": "1.0.0",
+            "name": "DataBaseApp",
+            "logpath": "/usr/local/aostar/data/log/DataBaseApp.log",
+            "confpath": "",
+            "enable": false
+        },
+        {
+            "version": "1.0.0",
+            "name": "updateApp",
+            "logpath": "/usr/local/aostar/data/log/updateApp.log",
+            "confpath": "",
+            "enable": false
+        },
+        {
+            "version": "1.0.0",
+            "name": "uartApp",
+            "logpath": "/usr/local/aostar/data/log/uartApp.log",
+            "confpath": "123",
+            "enable": false
+        },
+{
+            "version": "1.2.0",
+            "name": "uartApp",
+            "logpath": "/usr/local/aostar/data/log/uartApp.log",
+            "confpath": "133333",
+            "enable": false
+        },
+        {
+            "version": "1.0.0",
+            "name": "main.exe",
+            "logpath": "./web.log",
+            "cmd_line":"",
+            "work_dir":"",
+            "confpath": "",
+            "enable": true
+        }
+    ]
+}
